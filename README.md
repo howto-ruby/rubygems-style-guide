@@ -35,27 +35,95 @@ Translations of the guide are available in the following languages:
 
 ## Source Code Layout
 
+- top-level directories:
+  - app
+  - bin
+  - config
+  - doc
+  - ext
+  - features
+  - lib
+  - spec
+  - templates
+  - test
+  - tmp
+- what goes in lib?
+- what directories are under lib?
+- top-level files:
+  - README.md
+  - CHANGELOG.md
+  - DEVELOPERS.md
+  - TODO.md
+  - LICENSE
+  - AUTHORS
+  - gemspec
+  - Gemfile
+  - dotfile opts
+
 ## Naming
+
+- foo-bar -> foo/bar
+- foo_bar -> foo_bar
 
 ## Gemspec
 
+- files to specify
+- specifying included files
+- post_install
+- security
+
 ### Platform
+
+- releasing for multiple platforms
 
 ## Documentation
 
+- What it is
+- Basic Usage
+- Examples of more usage
+- How to develop
+- Communication: bugs, questions, code
+- Version control policies
+
 ## Tests
+
+- How to run
 
 ## Configuration
 
+- Specifying an interface for users to configure your gem
+  - as a library
+  - as a command-line tool
+
 ## Dependency Management
+
+- Runtime dependencies
+  - hard, at install
+  - soft, e.g. platform issues
+- Development dependencies
+  - required to run tests vs. used in development
+
 
 ## Exceptions
 
+- What exceptions can the lib raise?
+- How are they handled within the lib?
+
 ## Extensions
+
+- how to extend or change functionality
+- how it loads plugins, how to configure
+- hooks
 
 ### RubyGems Extensions
 
+- rubygems_plugin
+
 ## Handling IO
+
+- logging
+- stdout, stdin, stderr
+- warnings
 
 ## Maintenance
 
@@ -63,14 +131,32 @@ Translations of the guide are available in the following languages:
 - deprecations
 - semver
 - issue tracking
+- communication
+- abandoning
 
 ## Misc
 
 - benchmarking
+- internal gems
+- gem serving
+- app vs. lib
+- [Twelve-factor App](http://12factor.net/)
 
 ## Tools
 
+- git
+- bundler
+- gli
+- irc
+- mailing lists
+  - rubygems-developers
+- rake
+- homebrew
+
 # Contributing
+
+- Fork this repo, checkout a branch, commit changes, submit a pull request
+- Tweet `@hazula`
 
 # License
 
@@ -78,3 +164,5 @@ Translations of the guide are available in the following languages:
 This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US)
 
 # Spread the Word
+
+- This is very alpha. Any help or thoughts are appreciated.
