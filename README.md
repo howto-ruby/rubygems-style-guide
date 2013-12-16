@@ -38,15 +38,19 @@ Translations of the guide are available in the following languages:
 - top-level directories:
   - app
   - bin
+  - cert
+  - checksum
   - config
   - doc
   - ext
   - features
   - lib
   - spec
+  - tasks
   - templates
   - test
   - tmp
+  - vendor
 - what goes in lib?
 - what directories are under lib?
 - top-level files:
