@@ -1,10 +1,17 @@
 # The RubyGems Development Style Guide
 
+So, you're writing a RubyGem. Wouldn't it be great if there were a place
+you could reference which contains all the shared wisdom and experience
+of gem authors and maintainers?  Well, here you are.
+
 # What is this?
 
-So, you're writing a RubyGem.
+A set of community-driven set of best practices, conventions, and gotchas
+for gem authors and maintainers. It is meant to augment and supplement the
+[RubyGems Guides](http://guides.rubygems.org/), and perhaps serve as a
+sounding-board for ideas before they go into the Guide.
 
-Inspired by https://github.com/bbatsov/ruby-style-guide
+Inspired by [Bozhidar's Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
 
 Translations of the guide are available in the following languages:
 
