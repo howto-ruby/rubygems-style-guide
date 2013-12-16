@@ -153,6 +153,14 @@ Translations of the guide are available in the following languages:
 - rake
 - homebrew
 
+## External Resources
+
+- http://confreaks.com/videos/2888-rubyconf2013-api-design-for-gem-authors-and-users
+- http://confreaks.com/videos/2884-rubyconf2013-extending-gems-patterns-and-anti-patterns-of-making-your-gem-pluggable
+- http://www.naildrivin5.com/blog/2013/12/02/introduction-to-gli.html
+- http://guides.rubygems.org/
+
+
 # Contributing
 
 - Fork this repo, checkout a branch, commit changes, submit a pull request
