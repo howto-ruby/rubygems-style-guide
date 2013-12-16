@@ -79,6 +79,9 @@ Translations of the guide are available in the following languages:
 ### Platform
 
 - releasing for multiple platforms
+- [Redcard](https://github.com/brixen/redcard), to determine ruby engine
+  and version, e.g. in [metric_fu](https://github.com/metricfu/metric_fu/blob/94bd872/lib/metric_fu/environment.rb#L34w
+- File::Separator or File.join('foo','bar')
 
 ## Documentation
 
